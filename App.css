@@ -40,4 +40,82 @@
   direction: rtl;
   text-align: center;
 }
+.machine{
+  display:flex;
+  gap:1%;
+  justify-content:center;
+  height:100vh;
+  width:100%;
+}
+.left{
+  flex-basis:40%;
+}
+.prodDrinks{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  gap:2%;
+  height:60vh;
+  background-color:black;
+  flex-basis:100%;
+  margin-top:5%;
+  padding:5%;
+  
 
+  
+}
+.drink{
+  flex-basis:40%;
+  height:auto;
+
+  text-align:center;
+  background-color:white;
+  
+
+}
+.right{
+  flex-basis:15%;
+  /* display:flex; */
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.coins{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  height:20vh;
+  flex-basis:100%;
+  background-color:red;
+  margin-top:5%;
+  padding:5%;
+}
+.Bcoins{
+  flex-basis:35%;
+  height:8vh;
+  border-radius:10rem;
+  background-color:white;
+  font-size:large;
+
+}
+.massage{
+  height:10vh;
+  flex-basis:100%;
+  background-color:green;
+  font-size:large;
+  margin-top:13%;
+  padding-top:5%;
+}
+.userBoard{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  height:20vh;
+  flex-basis:100%;
+  padding:5%;
+  background-color:pink;
+
+}
+.Buser{
+  flex-basis:35%;
+  height:8vh;
+}
